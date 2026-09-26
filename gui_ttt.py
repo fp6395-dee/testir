@@ -57,7 +57,7 @@ class GameState:
 
 
 def minimax(state: GameState, bot: str, human: str, depth: int = 0):
-    w = state.winner()
+    w = state.winner()))
     if w == bot:
         return (10 - depth, None)
     if w == human:
