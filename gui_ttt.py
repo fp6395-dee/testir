@@ -55,9 +55,9 @@ class GameState:
         self.cells[idx] = player
         self.current = O if player == X else X
 
-
+привет ты читаешь это?
 def minimax(state: GameState, bot: str, human: str, depth: int = 0):
-    w = state.winner()))
+    w = state.winner()
     if w == bot:
         return (10 - depth, None)
     if w == human:
